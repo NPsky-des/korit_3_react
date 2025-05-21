@@ -19,12 +19,12 @@ function App() {
       <div style={divStyle}>
         저는 쌀과자, 연탄빵, 커피를 먹었습니다.
       </div>
-
+      
       <div className="App-header">
         링크 CSS 적용
       </div>
       <Hello />
-      <Hello2 user='Kimi'/>
+      <Hello2 firstName='이' lastName='김'/>
       <Hello2 firstName='삼' lastName='김'/>
       <Hello3 firstName='사' lastName='김'/>
     </>
